@@ -1,0 +1,139 @@
+
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.5s ease, padding 0.5s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: inherit;
+
+}
+
+#ImgInicio {
+    width: 100%; /* Ajusta según el ancho deseado */
+    max-width: 1200px; /* Establece un ancho máximo para evitar que se extienda demasiado en pantallas grandes */
+    margin: 0 auto; /* Centra el banner horizontalmente */
+}
+
+.swiper-slide img {
+    width: 100%; /* Ajusta según el ancho deseado */
+    height: auto; /* Mantiene la proporción de aspecto original */
+}
+
+header.scroll {
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 20px 0; 
+}
+.caja{
+    width: 100%; 
+    height: 100px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    transition: padding 0.2s ease;
+    padding: 10px;
+}
+.caja.scroll {
+    padding: 0;
+}
+
+#logo img {
+    transition: width 0.5s ease;
+}
+
+header.scroll #logo img {
+    width: 150px;
+}
+
+header.scroll #logo img, header.scroll nav a {
+    opacity: 0.0; 
+}
+ul{
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin-right: 15px; 
+    display: inline-block;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px; 
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+
+.principal{
+    background: #ffffff;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #85f9ff;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+th{
+    background: #faf773; /*Azul*/
+}
+td{
+    background-color: rgb(200, 200, 201);
+    border: 1px solid rgb(0,0,0);
+}
+table{
+    border-color: rgb(0, 0, 0);
+}

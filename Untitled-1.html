@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"> 
+        <title>TextilTerapia</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />  
+    </head>
+
+    <body>
+
+        <header>
+            <div class="caja">
+                <h1 id="logo"><img src="Imagenes/Lo.png" width="200"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="ImgInicio" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="Imagenes/Textil.jpg" alt="Imagen 1"></div>
+                    <div class="swiper-slide"><img src="Imagenes/Imagen_diferenciales.webp" alt="Imagen 2"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            
+            <div class="principal">
+
+                <h2 class="titulo-centralizado">Sobre TextilTerapia</h2>
+
+                <p>Ubicada en el oriente de la ciudad, <strong>TextilTerapia</strong> soy Gloria, tu experta en moda y costura personal. Me dedico a rejuvenecer tus prendas favoritas, ofreciendo un servicio de restauración y renovación de alta calidad. Con una pasión por la moda y una atención meticulosa al detalle, estoy aquí para darle una segunda vida a tu ropa, combinando la innovación con el cuidado artesanal en cada prenda.. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+
+                <p id="mision"><em> <table border="2">
+                    <tr> <!--Clumnas-->
+                        <th> <!--Encabezado Resaltado-->
+                            Mision
+                        </th>
+                        <td><!--Informacion-->
+                            <center><strong>Nuestra misión es: </strong> "Revivir la moda, una prenda a la vez, brindando a nuestros clientes la oportunidad de disfrutar de su ropa favorita durante más tiempo a través de servicios de restauración y renovación de alta calidad."</center>
+                        </td>         
+                    </tr></em></p>
+
+
+            </div>
+
+            <div class="diferenciales">
+
+                <h3 class="titulo-centralizado">Diferenciales</h3>
+            
+                <ul>
+                    <li class="items">Atención personalizada a los clientes</li>
+                    <li class="items">La mejor atención</li>
+                    <li class="items">Localización</li>
+                    <li class="items">Profesesional calidficado con una larga experiencia</li>
+                </ul>
+
+                <img src="Imagenes/Imagen_diferenciales.webp" class="imagenDiferenciales">
+
+            </div>
+        </main>   
+        
+        <footer>
+            
+        </footer>
+        <script src="Interaccion.js"></script>
+        <!-- ... Otro contenido ... -->
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            });
+        </script>
+</body>
+
+    </body>
+</html>
